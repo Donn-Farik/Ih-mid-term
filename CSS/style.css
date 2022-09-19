@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f4f6fc;
+  font-family: "Roboto", sans-serif;
+}
+/* nav */
+.nav-bar {
+  height: 122px;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.logo {
+  grid-column: 3/4;
+  width: 60.53px;
+  height: 18.46px;
+}
+.menu {
+  display: flex;
+  grid-column: 6/9;
+  justify-content: space-around;
+  width: 295px;
+  height: 22px;
+}
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  width: 84px;
+  height: 22px;
+}
+.home {
+  width: 46px;
+  height: 22px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+
+  color: #072ac8;
+}
+.progect {
+  width: 63px;
+  height: 22px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+
+  color: #6b708d;
+}
+.services {
+  width: 66px;
+  height: 22px;
+
+  /* Web/Headline/Medium */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  color: #6b708d;
+}
+.contact {
+  grid-column: 10/12;
+  width: 150px;
+  height: 52px;
+  background-color: #072ac8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 36px;
+  gap: 10px;
+  border: none;
+}
+.contact h4 {
+  width: 84px;
+  height: 22px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+  flex: none;
+}
+.menu-bar {
+  grid-column: 12/13;
+  display: none;
+}
+/* header */
+.head {
+  padding: 90px 0 30px 0;
+  width: 1440px;
+  height: 650px;
+
+  display: grid;
+  justify-content: space-between;
+
+  grid-template-columns: repeat(12, 1fr);
+}
+.hero-section {
+  position: relative;
+  grid-column: 7/9;
+}
+.hero-image {
+  width: 570px;
+  height: 637px;
+}
+.card-1 {
+  position: absolute;
+  top: 10px;
+
+  width: 190px;
+  height: 216px;
+}
+.card-2 {
+  position: absolute;
+  bottom: -70px;
+  left: 421px;
+  width: 190px;
+  height: 216px;
+}
+aside {
+  grid-column: 3/5;
+  grid-column: 2/5;
+  padding: 36px;
+  padding-top: 135px;
+  padding-right: 36px;
+  padding-bottom: 36px;
+  padding-left: 36px;
+}
+.title {
+  width: 530px;
+  height: 210px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70.31px;
+  color: #292e47;
+}
+.sub-title {
+  margin: 30px 0 30px 0;
+  width: 435px;
+  height: 90px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6b708d;
+}

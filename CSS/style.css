@@ -636,3 +636,115 @@ address h5 {
   line-height: 150%;
   color: #6b708d;
 }
+/* ----------------------- */
+/* contact css */
+.contact-container {
+  margin-left: 28px;
+}
+.contact-container h1 {
+  width: 530px;
+  height: 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #292e47;
+  margin-top: 210px;
+  margin-bottom: 75px;
+}
+.form-contact {
+  position: relative;
+}
+
+label {
+  margin-top: 27px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 301.05px;
+  height: 30px;
+  left: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6b708d;
+}
+#fname {
+  width: 1100px;
+  height: 70px;
+  color: #6b708d;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  background: rgba(107, 112, 141, 0.1);
+  border: 0;
+  padding-left: 13px;
+}
+#email {
+  width: 530px;
+  height: 70px;
+  background: rgba(107, 112, 141, 0.1);
+  color: #6b708d;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  background: rgba(107, 112, 141, 0.1);
+  border: 0;
+  padding-left: 13px;
+}
+#phone {
+  width: 564px;
+  height: 70px;
+  background: rgba(107, 112, 141, 0.1);
+  color: #6b708d;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border: 0;
+  padding-left: 13px;
+}
+.phone {
+  position: relative;
+  top: -132px;
+  left: 536px;
+}
+.contact-text-field {
+  width: 1100px;
+  height: 200px;
+  background: rgba(107, 112, 141, 0.1);
+  color: #6b708d;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border: 0;
+  padding-left: 13px;
+}
+.textfield-submit {
+  position: relative;
+  top: -128px;
+}
+#btn-submit {
+  align-items: center;
+  padding: 15px 37px;
+
+  width: 1100px;
+  height: 80px;
+  background: #072ac8;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffffff;
+}

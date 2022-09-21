@@ -63,9 +63,6 @@ body {
 .services {
   width: 66px;
   height: 22px;
-
-  /* Web/Headline/Medium */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -176,6 +173,10 @@ aside {
   cursor: pointer;
   border-radius: 0;
   margin-left: 39px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 .btn-ourwork {
   cursor: pointer;
@@ -203,7 +204,7 @@ aside {
 }
 /* progect-section */
 .title-h1 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -214,7 +215,7 @@ aside {
   display: flex;
   justify-content: space-around;
   width: 1158px;
-  margin: 87px 135px 123px 162px;
+  margin: 87px 135px 209px 162px;
 }
 .container div img {
   width: 340px;
@@ -245,7 +246,7 @@ aside {
   width: 225px;
   height: 26px;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -256,15 +257,382 @@ aside {
 .cart-texto h1 {
   width: 88px;
   height: 28px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   color: #292e47;
 }
-.card {
+.card-progect {
   background-color: #ffffff;
   box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
   width: 340px;
   height: 444px;
+}
+/* testimonial-section */
+
+.testimonial-section {
+  background-image: url(/CSS/icons/orbit.png);
+  width: 1320px;
+  height: 622px;
+  background: #292e47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 72px;
+}
+.testimonial-container {
+  position: relative;
+}
+.kristin-Watson {
+  position: absolute;
+
+  top: 190px;
+  left: 227px;
+  width: 171px;
+  height: 50px;
+  display: flex;
+}
+.kristin-Watson img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.kristin-Watson .person {
+  width: 111px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #a2d6f9;
+  margin: 7px;
+}
+.kristin-Watson .company {
+  width: 77px;
+  height: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #f4f6fc;
+  margin: 7px;
+}
+.blockquote {
+  position: absolute;
+  top: -29px;
+  left: -9px;
+  width: 596px;
+  height: 76px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffc600;
+}
+.testimonial-container h1 {
+  position: absolute;
+  top: -226px;
+  right: -616px;
+  width: 621px;
+  height: 47px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #f4f6fc;
+}
+.first-img {
+  position: relative;
+  top: -152px;
+  left: -226px;
+  width: 150px;
+  height: 150px;
+}
+.second-img {
+  position: relative;
+  top: 150px;
+  right: -487px;
+  width: 150px;
+  height: 150px;
+}
+.third-img {
+  position: relative;
+  top: 150px;
+  left: -505px;
+  width: 150px;
+  height: 150px;
+}
+.fourth-img {
+  position: relative;
+  top: -152px;
+  left: 179px;
+  width: 150px;
+  height: 150px;
+}
+/* services-section  */
+
+.services-section {
+  height: 561px;
+}
+.myservices {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-left: 182px;
+  margin-top: 104px;
+  margin-bottom: 87px;
+}
+.container-services {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 340px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 18px;
+  background-color: #ffffff;
+}
+.last-img {
+  width: 80px;
+  height: 80px;
+  background: #ecf7ff;
+  border-radius: 49.6px;
+  -webkit-border-radius: 49.6px;
+  -moz-border-radius: 49.6px;
+  -ms-border-radius: 49.6px;
+  -o-border-radius: 49.6px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 31px;
+}
+.last-img img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-top: 21px;
+  margin-left: 18px;
+}
+.card h1 {
+  max-width: 340px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292e47;
+}
+.card p {
+  /* width: 280px;
+  height: 90px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6b708d; */
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.card input {
+  width: 100px;
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #072ac8;
+  border: 0;
+  background: transparent;
+}
+/* news-letter-section */
+.news-letter-section {
+  width: 1320px;
+  height: 500px;
+  max-width: 1320px;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffc600;
+}
+.container-news-letter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.container-news-letter h1 {
+  margin-bottom: 20px;
+  color: #292e47;
+  font-size: 40px;
+}
+.container-news-letter h3 {
+  font-size: 17px;
+  color: #6b708d;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 56px;
+  font-weight: 400;
+}
+.input-news {
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.iw-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.w-input,
+.w-select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.text-field {
+  width: 393px;
+  height: 80px;
+  margin-bottom: 0px;
+  padding-left: 70px;
+  background-color: #ecf7ff;
+  color: #292e47;
+}
+.textfield-icon {
+  position: relative;
+  top: 3px;
+  left: 45px;
+}
+.button.primary-button.cta-button {
+  height: 80px;
+  margin-left: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.button.primary-button {
+  padding: 15px 30px;
+  background-color: #072ac8;
+  font-size: 17px;
+}
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898ec;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+/* footer-sections */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.footer-links ul {
+  display: flex;
+}
+.ul-2 {
+  position: relative;
+  top: 61px;
+  left: -10px;
+}
+.ul-1 {
+  position: relative;
+  top: 1px;
+  left: 284px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 17px;
+  color: #0000ee;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-links li {
+  list-style: none;
+}
+address {
+  width: 260px;
+  max-width: 260px;
+}
+address img {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+address h5 {
+  width: 260px;
+  height: 52px;
+
+  bottom: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #6b708d;
 }

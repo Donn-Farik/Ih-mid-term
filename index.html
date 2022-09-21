@@ -17,9 +17,9 @@
 
       <ul class="menu">
         <li>
-          <a class="home" href="#">Home </a>
+          <a class="home" id="home" href="#home">Home </a>
         </li>
-        <li><a class="progect" href="#">Projects</a></li>
+        <li><a class="progect" href="#progects">Projects</a></li>
         <li><a class="services" href="#services">Services</a></li>
       </ul>
 
@@ -68,10 +68,10 @@
       <img src="/CSS/logos/amazon-logo.svg" alt="amazon image" />
     </section>
 
-    <section class="progect-section">
+    <section class="progect-section" id="progects">
       <h1 class="title-h1">Recent Progect</h1>
       <div class="container">
-<div class="card ui-design">
+<div class="card-progect ui-design">
         <img src="/CSS/projects-section/1.jpg" alt="UI Design image" />
         <div class="cart-texto">
 
@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <div class="card web">
+      <div class="card-progect web">
         <img src="/CSS/projects-section/2.jpg" alt="web development image" />
         <div class="cart-texto">
 
@@ -91,7 +91,7 @@
         </div>
       </div>
 
-      <div class="card user-experience">
+      <div class="card-progect user-experience">
         <img src="/CSS/projects-section/3.jpg" alt="user experience image" />
         <div class="cart-texto">
           <h1>vectorify</h1>
@@ -102,30 +102,42 @@
     </section>
 
     <section class="testimonial-section">
-      <h1>Hear what our client have to say</h1>
-      <div class="first-imoticons">
-        <img src="/CSS/testimonial-section/memoji-1.png" alt="" />
-        <img src="/CSS/testimonial-section/memoji-2.png" alt="" />
-      </div>
+      
+      
+        
+      
 
-      <div class="testimonial">
-        <blockquote>
+      <div class="testimonial-container">
+         <h1>Hear what our client have to say</h1>
+        <blockquote class="blockquote">
           "Circle helped us through every stage of ur startup.we really enjoyed
           working with you. "
         </blockquote>
-        <img src="/CSS/testimonial-section/profile.png" alt="Kristin Watson" />
+        <div class="kristin-Watson"><img  src="/CSS/testimonial-section/profile.png" alt="Kristin Watson" />
+          <div>
+
+            <p class="person">Kristin Watson </p>
+            <p class="company">booking.com </p>
+          </div>
+        
+        </div>
+        
       </div>
-      <div class="seconde-inoticons">
-        <img src="/CSS/testimonial-section/memoji-3.png" alt="" />
-        <img src="/CSS/testimonial-section/memoji-4.png" alt="" />
+      <img class="first-img" src="/CSS/testimonial-section/memoji-1.png" alt="" />
+        <img class="second-img" src="/CSS/testimonial-section/memoji-2.png" alt="" />
+      
+        <img class="third-img" src="/CSS/testimonial-section/memoji-3.png" alt="" />
+        <img class="fourth-img" src="/CSS/testimonial-section/memoji-4.png" alt="" />
+      
       </div>
     </section>
-      </div>
       
-
-    <section class="services" id="services">
-      <div class="card user-interface">
-        <img src="/CSS/icons/1.svg" alt="user interface" />
+    <section class="services-section " id="services">
+      <h1 class="myservices" >Our Services</h1>
+      <div class="container-services">
+      <div class="card user-interface ">
+        <div class="last-img"><img src="/CSS/icons/1.svg" alt="user 
+        interface" /> </div>
         <h1>User Interface Design</h1>
         <p>
           Circle provides you with a stunning user interface desing that is
@@ -135,7 +147,9 @@
       </div>
 
       <div class="card user-Experience">
-        <img src="/CSS/icons/2.svg" alt="user Experience" />
+        <div class="last-img">
+          <img src="/CSS/icons/2.svg" alt="user Experience" />
+        </div>
         <h1>User Experience Design</h1>
         <p>
           Circle alwayse focuses on delivering the best user experience to your
@@ -145,7 +159,9 @@
       </div>
 
       <div class="card aplication_development">
-        <img src="/CSS/icons/3.svg" alt="Aplication Development" />
+        <div class="last-img">
+          <img src="/CSS/icons/3.svg" alt="Aplication Development" />
+        </div>
         <h1>Aplication Development</h1>
         <p>
           Circle provides you with a stunning user interface desing that is
@@ -153,32 +169,46 @@
         </p>
         <input type="button" value="Learn More" />
       </div>
+      </div>
     </section>
 
-    <section class="news-letter">
+    <section class="news-letter-section">
+      <div class="container-news-letter">
       <h1>Do you have any questions?</h1>
       <h3>let us help you !</h3>
-      <input type="email" value="Enter your email" />
-      <input type="button" value="Subscribe" />
+      <div class="input-news">
+<div class="textfield-icon"><img src="/CSS/newsletter/icon/mail.svg" alt=""></div>
+<input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
+      <input type="submit" value="Suscribe" data-wait="Please wait..." class="button primary-button cta-button w-button">
+      </div>
+      </div>
+      
+      
     </section>
-    <footer>
+    <section class="footer">
+      
       <address>
-        <h2><img src="/CSS/logos/circle.svg" alt="" /></h2>
-        <h5>2972 Westheimer Rd. Santa Ana, Illinois 85486</h5>
-        <div class="footer links">
-          <ul>
+        <img src="/CSS/logos/circle.svg" alt="" />
+        <h5>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</h5>
+        </address>
+        <div class="footer-links">
+          <div class="ul-1">
+            <ul >
             <li><a href="#">Team</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
-          <ul>
+          </div>
+          <div class="ul-2">
+            <ul >
             <li><a href="#">Press</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
+          </div>
+          
         </div>
-      </address>
-    </footer>
+    </section>
 
     <script src="script.js"></script>
   </body>

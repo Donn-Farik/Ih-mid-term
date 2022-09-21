@@ -19,3 +19,8 @@ The tasks that i have to do today :
 
 1-styling the rest of the sections
 2-programin a humberger menu
+
+#### Miercoles 21Septiembre, 2022
+
+1-terminar el homrpage.
+2-empezar en la pagina de contact

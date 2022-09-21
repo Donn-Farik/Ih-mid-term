@@ -748,3 +748,68 @@ label {
   margin-top: 15px;
   color: #ffffff;
 }
+
+/* page-progect-section */
+
+.page-progect-section {
+  width: 1440px;
+  height: 1181px;
+  margin-top: 81px;
+  margin-left: 175px;
+}
+.page-progect-section h1 {
+  margin-top: ;
+  width: 530px;
+  height: 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #292e47;
+}
+.h3-div {
+  margin-top: 10px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.h3-div h3 {
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6b708d;
+}
+.h3-div h4 {
+  width: 255px;
+  height: 30px;
+  left: 1015px;
+  top: 94px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: right;
+  color: #292e47;
+}
+.page-progect-section img {
+  margin-top: 63px;
+  width: 1100px;
+  height: 444px;
+}
+.page-progect-section p {
+  margin-top: 79px;
+  width: 1100px;
+  height: 420px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  font-family: Roboto, sans-serif;
+  color: #292e47;
+}

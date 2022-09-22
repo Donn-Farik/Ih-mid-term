@@ -23,3 +23,8 @@ included
 
 1-terminar el homrpage.
 2-empezar en la pagina de contact
+
+#### Jueves 22Septiembre, 2022
+
+1-el menu de humburgesa.
+2- responsive responsive header

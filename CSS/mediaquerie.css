@@ -119,7 +119,185 @@
     display: none;
   }
   /* client-section */
-  .client-section {
+  .client-section .img5 {
+    display: none;
+  }
+  .client-section .img {
+    width: 104px;
+    height: 73px;
+  }
+  .client-section .img1 {
+    position: relative;
+    top: -86px;
+    left: -199px;
+  }
+  .client-section .img2 {
+    position: relative;
+    top: -81px;
+    left: -271px;
+  }
+
+  .client-section .img3 {
+    position: relative;
+    top: 20px;
+    left: -731px;
+  }
+  .client-section .img4 {
+    position: relative;
+    position: relative;
+    top: 12px;
+    left: -800px;
+  }
+  /* progect section */
+
+  .title-h1 {
+    position: relative;
+    top: -160px;
+    left: -99px;
+    font-size: 28px;
+    width: 100%;
+  }
+  .container {
     display: block;
+    display: block;
+    position: relative;
+    left: -131px;
+    top: -232px;
+  }
+  .card-progect {
+    width: 297px;
+    height: 421px;
+    margin-bottom: 21px;
+  }
+  .container div img {
+    width: 297px;
+  }
+  /* testimonial section */
+  .img-testimonial {
+    display: none;
+  }
+  .testimonial-section {
+    width: 327px;
+    position: relative;
+    left: -57px;
+    top: -393px;
+    height: 394px;
+  }
+  .testimonial-container {
+    position: relative;
+    top: 39px;
+    left: -126px;
+  }
+  .testimonial-container h1 {
+    font-size: 25px;
+    width: 241px;
+    position: relative;
+    top: -201px;
+    left: 122px;
+    text-align: center;
+    line-height: 41px;
+  }
+  .blockquote {
+    position: absolute;
+    top: -73px;
+    left: 111px;
+    width: 252px;
+    font-size: 18px;
+  }
+  .cristian {
+    position: relative;
+    top: -173px;
+    left: -78px;
+  }
+  .services-section {
+    position: relative;
+    top: -460px;
+    left: 28px;
+  }
+  .myservices {
+    position: relative;
+    top: 10px;
+    left: -108px;
+    font-size: 29px;
+  }
+  .container-services {
+    display: block;
+    margin-top: -58px;
+  }
+  .card {
+    width: 305px;
+    margin-bottom: 17px;
+    height: 311px;
+  }
+  .container-news-letter {
+    position: relative;
+    top: ;
+    left: -366px;
+  }
+  .container-news-letter h1 {
+    width: 186px;
+    position: relative;
+    top: -67px;
+    left: -172px;
+  }
+
+  .container-news-letter h3 {
+    width: 186px;
+    position: relative;
+    top: -67px;
+    left: -85px;
+  }
+  .w-input {
+    width: 273px;
+    top: -69px;
+    left: 18px;
+    position: relative;
+  }
+
+  .primary-button {
+    width: 273px;
+    top: 30px;
+    left: -276px;
+    position: relative;
+  }
+  .news-letter-section {
+    margin-top: 77px;
+  }
+  /* footer section */
+  .footer {
+    display: block;
+  }
+  address {
+    position: relative;
+    top: -124px;
+    left: 61px;
+  }
+  address img {
+    position: relative;
+    top: 4px;
+    left: 61px;
+  }
+  address h5 {
+    text-align: center;
+  }
+  .footer-links {
+    position: relative;
+    top: -49px;
+    left: -168px;
+    width: 141%;
+  }
+
+  .footer-links a {
+    margin-left: 28px;
+  }
+  .ul-1 {
+    position: relative;
+    top: -26px;
+    left: 216px;
+  }
+  .ul-2 {
+    position: relative;
+    top: 38px;
+    left: -60px;
   }
 }

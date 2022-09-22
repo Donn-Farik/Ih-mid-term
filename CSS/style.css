@@ -433,13 +433,6 @@ aside {
   color: #292e47;
 }
 .card p {
-  /* width: 280px;
-  height: 90px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #6b708d; */
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 17px;
@@ -571,10 +564,10 @@ aside {
   text-decoration: none;
   cursor: pointer;
   border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
 }
 /* footer-sections */
 .footer {

@@ -1,7 +1,11 @@
 @media (max-width: 400px) {
   .nav-bar {
     position: relative;
-    /* margin-top: -10px; */
+
+    z-index: 100;
+  }
+  body {
+    margin-top: ;
   }
   .nav-bar .logo {
     position: relative;
@@ -24,6 +28,10 @@
     left: -164px;
     display: grid;
     transform: translateY(-220px);
+    -webkit-transform: translateY(-220px);
+    -moz-transform: translateY(-220px);
+    -ms-transform: translateY(-220px);
+    -o-transform: translateY(-220px);
   }
   .menu.menu-toggle {
     transform: translateY(0px);
@@ -43,6 +51,7 @@
     top: -70px;
     z-index: 1;
     left: -58px;
+    width: 400px;
   }
   .sub-title {
     text-align: center;
@@ -101,6 +110,9 @@
     top: -134px;
     top: -160px;
   }
+  .hero-section {
+    width: 400px;
+  }
 
   .hero-section .hero-image {
     max-width: 100%;
@@ -145,7 +157,9 @@
     left: -800px;
   }
   /* progect section */
-
+  .progect-section {
+    width: 400px;
+  }
   .title-h1 {
     position: relative;
     top: -160px;
@@ -159,6 +173,7 @@
     position: relative;
     left: -131px;
     top: -232px;
+    width: 400px;
   }
   .card-progect {
     width: 297px;
@@ -225,10 +240,14 @@
     margin-bottom: 17px;
     height: 311px;
   }
+  .news-letter-section {
+    margin-top: 88px;
+    width: 324px;
+    margin-left: 18px;
+  }
   .container-news-letter {
     position: relative;
-
-    left: -366px;
+    left: 112px;
   }
   .container-news-letter h1 {
     width: 186px;
@@ -258,6 +277,7 @@
   }
   .news-letter-section {
     margin-top: 77px;
+    width: 349px;
   }
   /* footer section */
   .footer {

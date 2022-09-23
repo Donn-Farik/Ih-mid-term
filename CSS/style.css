@@ -20,7 +20,9 @@ body {
   grid-column: 3/4;
   width: 60.53px;
   height: 18.46px;
+  margin-left: 148px;
 }
+
 .menu {
   display: flex;
   grid-column: 6/9;

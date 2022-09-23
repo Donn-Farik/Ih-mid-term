@@ -24,10 +24,6 @@
     left: -164px;
     display: grid;
     transform: translateY(-220px);
-    -webkit-transform: translateY(-220px);
-    -moz-transform: translateY(-220px);
-    -ms-transform: translateY(-220px);
-    -o-transform: translateY(-220px);
   }
   .menu.menu-toggle {
     transform: translateY(0px);
@@ -300,4 +296,5 @@
     top: 38px;
     left: -60px;
   }
+  /* contact section */
 }
